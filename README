@@ -1,0 +1,22 @@
+Goal: Application which checks an Android device user's Google Calendar for
+specific events which the wants their device silenced and silenced the
+device.
+
+ToDo:
+  - learn API's
+    - Android
+      - Control Ringer (vibrate, silence, etc)
+      - Ringtone selection?
+    - Google Calendar
+      - Read event information for specific settings
+      - Multiple Calendars?
+
+  - Design a GUI
+    - Widget (user can decide if its necessary)
+    - Set Options
+      - Default: Silence or Vibrate
+      - Calendar: Which one contains silencing info
+        - based on availability, name of calendar, name of events, and description
+      - Specific Ring tone for different calendars?
+      - How many days in advance should be stored in case of network unavailability.
+
